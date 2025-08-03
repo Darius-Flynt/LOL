@@ -1,0 +1,169 @@
+/* Reset e fonte */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f8f9fb;
+  color: #1a1a1a;
+}
+
+header {
+  background: #0f2a4d;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav button {
+  background-color: #0094ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+main.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.card img {
+  width: 32px;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.card.destaque button {
+  margin-top: 20px;
+  background-color: #82f524;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.card.destaque {
+  grid-column: span 2;
+  background-color: #f0f7ff;
+  text-align: left;
+}
+
+.card.destaque h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card.destaque .valor {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card.destaque .entregue {
+  color: #00aa44;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.seguranca {
+  grid-column: span 2;
+  background-color: #e8fcf3;
+  border: 1px solid #b5ecd3;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.seguranca img {
+  width: 24px;
+  height: 24px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+/* para o carrossel */
+.carrossel {
+  width: 80%;
+  max-width: 80%;
+  height: 450px;
+  margin: auto;
+  margin-top: 1ic;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  animation: deslizar 30s;
+}
+
+.slides img {
+  width: auto;
+  height: 150%;
+  object-fit: cover;
+}
+
+@keyframes deslizar {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+
+#LOGO {
+  width: auto; /* Ajuste o tamanho conforme sua logo */
+  height: 50px;
+}
+

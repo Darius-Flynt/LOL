@@ -1,0 +1,181 @@
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* Um card por linha no mobile */
+  }
+}
+
+
+/* Reset básico */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #e6e6e6;
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-color: #001f3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+#LOGO {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0074D9;
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Carrossel */
+.carrossel-itau {
+  background-color: #979797;
+  padding: 4rem 2rem;
+}
+
+.carrossel-itau-conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.carrossel-itau-texto {
+  flex: 1;
+}
+
+.carrossel-itau-texto h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.carrossel-itau-texto p {
+  font-size: 1rem;
+  color: #dddddd;
+}
+
+.btn-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #0074D9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.carrossel-itau-imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.carrossel-itau-imagem img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.registro {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.registro h2 {
+  text-align: center;
+  color: #0f2a4d;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn-registro {
+  width: 100%;
+  background-color: #0094ff;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-registro:hover {
+  background-color: #007cd6;
+}
+
+.registro p {
+  color: black;
+}
+
+
+/* Rodapé */
+footer {
+  padding: 2rem;
+  background-color: #000c1a; /* Azul-marinho escuro */
+  color: white;
+  text-align: center;
+}
+
+
