@@ -199,6 +199,12 @@ nav button {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.btn-cta:hover,
+.btn-cta:hover {
+  color: #91c1eb;
 }
 
 .carrossel-itau-imagem {

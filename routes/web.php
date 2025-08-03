@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 
-Route::get('/', [Controller::class, 'homepage']);
+Route::get('/', [Controller::class, 'main']);
 Route::get('/cadastrar', [Controller::class, 'cadastrar']);
 Route::get('/login', [Controller::class, 'fazerLogin']);
 Route::get('/ping', [Controller::class, 'ping']);
