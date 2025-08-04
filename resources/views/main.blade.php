@@ -21,7 +21,7 @@
       <a href="#">Início</a>
       <a href="#">Serviços</a>
       <a href="#">Sobre</a>
-      <a href="#">Contato</a>
+      <a href="/ajuda">Contato</a>
       <button onclick="location.href='/register'">Registrar-se</button>
       <button>Entrar na sua Conta</button>
     </nav>

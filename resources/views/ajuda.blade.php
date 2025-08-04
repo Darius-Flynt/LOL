@@ -14,9 +14,9 @@
       <h1>Leme Contábil</h1>
     </div>
     <nav>
-      <a href="#">Ajuda</a>
+      <a href="/ajuda">Ajuda</a>
       <a href="#">Sobre Nós</a>
-      <button>Registrar-se</button>
+      <button onclick="location.href='/register'">Registrar-se</button>
       <button>Acessar Sua Conta</button>
     </nav>
   </header>

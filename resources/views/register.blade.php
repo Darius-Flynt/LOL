@@ -9,18 +9,23 @@
 </head>
 <body>
   <header>
+  <div class="menu-container">
     <div class="header-left">
       <img src="Logo.png" id="LOGO" alt="Logo Leme" />
       <h1>Leme Contábil</h1>
     </div>
+    <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('show')">
+      &#9776;
+    </button>
     <nav>
-      <a href="/main">Inicio</a>
+      <a href="/main">Início</a>
       <a href="#">Ajuda</a>
       <a href="#">Sobre Nós</a>
       <button>Registrar-se</button>
       <button>Acessar Sua Conta</button>
     </nav>
-  </header>
+  </div>
+</header>
 
   <!-- formualrio de registro -->
   <main>
